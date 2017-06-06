@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+    background-color: white;
+    overflow: scroll;
+}
+
+#pagebody{
+    width: 960px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: AliceBlue;
+    font-family: "Arial", sans-serif;
+}
+
+#headerbar{
+    white-space: nowrap;
+}
+
+#topimage{
+    width: 170px;
+    margin: 50px;
+    float: left;
+}
+
+#navigation{
+    width: 490px;
+    margin-top: 140px;
+    float: left;
+}
+
+#navigation li{
+    margin-right: 20px;
+    padding: 10px;
+    display: inline;
+    background-color: LightSteelBlue;
+}
+
+#navigation li a{
+    color: darkslategray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navigation li:hover{
+    border-bottom: thick solid steelblue;
+}
+
+#search{
+    margin-top: 130px;
+    border: 1px solid gray;
+    float: left;
+}
+
+input{
+    width: 140px;
+    padding: 5px;
+}
+
+
+#pagetitle{
+    margin-top: -130px;
+    float: left;
+}
+
+#textbody{
+    margin: 70px;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    clear: both;
+    font-size: 11px;
+}
+
+h2{
+    font-family: "Times New Roman", serif;
+    color: darkslategray;
+    font-size: 23px;
+    font-weight: 900;
+    margin-bottom: 20px
+}
+
+#textbody img{
+    width: 110px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+h4{
+    padding-top: 12px;
+    margin-bottom: 18px;
+}
+
+h4 a{
+    text-decoration: none;
+    color: steelblue;
+    font-size: 17px;
+}
+
+#firstparagraph{
+    margin-top: 20px;
+}
+
+p{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+h3{
+    margin-top: 20px;
+    font-family: "Times New Roman", serif;
+    font-size: 17px;
+    color: darkslategray;
+}
+
+#suggestions{
+    font-size: 12px;
+    list-style-type: square;
+    margin-left: 25px;
+}
+
+#suggestions li a{
+    text-decoration: none;
+    color: steelblue;
+}
